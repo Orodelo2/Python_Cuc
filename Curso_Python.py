@@ -103,7 +103,32 @@ n1 = float(n1)
 n2 = float(n2)
 print(n1+n2)
 
+# Comparadores
 
+a = 2
+b = 5
+
+if a > b:
+    print(a, "Es mayor que", b)
+else:
+    print(b, "es mayor que", a)
+
+if a > b:
+    if b > 1:
+        print(b, "Es mayor que 1 y es mayor que", a)
+
+if a == b:
+    print("Son iguales")
+elif a > b:
+    print(a, " es mayor que ", b)
+else:
+    print(b, "es mayor que ", a)
+
+if a == b and a > 2:
+    print(a, "Es igual a", b, "Mayor que 2")
+
+if a == b or a > 2:
+    print(a, "Es igual a", b, "Mayor que 2")
 
 
 
