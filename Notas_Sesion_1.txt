@@ -14,7 +14,7 @@ Buenas práctica:
 3. el código debe ser probado (Testing).
 
 
-Comandos linus
+Comandos linux
 ls ver carpetas
 cd entrar a unacarpeta
 cd . . regresar a la carpeta anterior
@@ -22,7 +22,17 @@ cd . . regresar a la carpeta anterior
 Consultar un programa: nombre de programa --version
 			git --version
 
+software usado: Anaconda
 
+aplicar control de versiones  al acarpeta:
+1. entrar a la carpeta por medio de git bash
+2. escribir git init
+3. git config --global user.name "Orlando"
+4. git config --global user.email "rodso91@gmail.com"
+5. git config --global --list
+6. git status +git add .
+7. git stauts
+8. git commit -m "nombre de la foto"
 
 
 

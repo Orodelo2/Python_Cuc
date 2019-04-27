@@ -1,0 +1,502 @@
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Curso_Python.py
+        new file:   Notas_Sesion_1.txt
+
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git commit -m "Foto inicial"
+[master (root-commit) 38458cb] Foto inicial
+ 2 files changed, 84 insertions(+)
+ create mode 100644 Curso_Python.py
+ create mode 100644 Notas_Sesion_1.txt
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git log.
+git: 'log.' is not a git command. See 'git --help'.
+
+Did you mean this?
+        log
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git log
+commit 38458cbdee2cd0230ce185ae1e220cd022e91af8
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:01:32 2019 -0500
+
+    Foto inicial
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ clear
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in work
+
+        modified:   Curso_Python.py
+
+no changes added to commit (use "git add" and/or "git commit
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git commit -m "Foto inicial2"
+On branch master
+Changes not staged for commit:
+        modified:   Curso_Python.py
+
+no changes added to commit
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in work
+
+        modified:   Curso_Python.py
+
+no changes added to commit (use "git add" and/or "git commit
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git add .
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Curso_Python.py
+
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git commit -m "Foto inicial2"
+[master 4a46092] Foto inicial2
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git log
+commit 4a460923316e92f1b6e6240ef3a36562a8b47111
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:20:25 2019 -0500
+
+    Foto inicial2
+
+commit 38458cbdee2cd0230ce185ae1e220cd022e91af8
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:01:32 2019 -0500
+
+    Foto inicial
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Curso_Python.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git add .
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Curso_Python.py
+
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git commit -m "Foto inicial"
+[master 6cdddfc] Foto inicial
+ 1 file changed, 34 insertions(+)
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git log
+commit 6cdddfcfad78165b0e9be0e03a0c87f2298f4fc8
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:42:07 2019 -0500
+
+    Foto inicial
+
+commit 4a460923316e92f1b6e6240ef3a36562a8b47111
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:20:25 2019 -0500
+
+    Foto inicial2
+
+commit 38458cbdee2cd0230ce185ae1e220cd022e91af8
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:01:32 2019 -0500
+
+    Foto inicial
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ cd ..
+
+android@S13-31 MINGW64 ~/desktop
+$ cd ..
+
+android@S13-31 MINGW64 ~
+$ ssh-keygen -t rsa -b 4096 -C "rodso91@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/android/.ssh/id_rsa):
+Created directory '/c/Users/android/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/android/.ssh/id_rsa.
+Your public key has been saved in /c/Users/android/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:G3S0tn1HEpUGXolHNf76dB27Z6a//6cd3P+/+Ef4sI8 rodso91@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|          .  .==*|
+|         . ...o*.|
+|        . +  .+..|
+|       . o o   o.|
+|        S . . .oo|
+|         o   .+o*|
+|        .     .O=|
+|              o=%|
+|             .E%^|
++----[SHA256]-----+
+
+android@S13-31 MINGW64 ~
+$ ls
+AppData/
+'Configuración local'@
+Contacts/
+Cookies@
+'Datos de programa'@
+Desktop/
+Documents/
+Downloads/
+'Entorno de red'@
+Favorites/
+Impresoras@
+Links/
+'Menú Inicio'@
+'Mis documentos'@
+Music/
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.0.regtrans-ms
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.1.regtrans-ms
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.2.regtrans-ms
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.blf
+NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TM.blf
+NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+OneDrive/
+Pictures/
+Plantillas@
+Reciente@
+'Saved Games'/
+Searches/
+SendTo@
+Videos/
+
+android@S13-31 MINGW64 ~
+$ cd ..
+
+android@S13-31 MINGW64 /c/Users
+$ ls
+adiaz48/      cbarcena/        hpayares1/   lbustill/
+'All Users'@  Default/         hrincon2/    MSSQLSERVER/
+alopez46/     'Default User'@  imartine15/  Public/
+android/      desktop.ini      jmunoz38/    Soporte/
+aperez74/     dpimient/        jsarmien35/  SQLTELEMETRY/
+asuarez19/    egomez53/        larrieta20/  ysantand/
+
+android@S13-31 MINGW64 /c/Users
+$ cd android
+
+android@S13-31 MINGW64 ~
+$ ls
+AppData/
+'Configuración local'@
+Contacts/
+Cookies@
+'Datos de programa'@
+Desktop/
+Documents/
+Downloads/
+'Entorno de red'@
+Favorites/
+Impresoras@
+Links/
+'Menú Inicio'@
+'Mis documentos'@
+Music/
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.0.regtrans-ms
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.1.regtrans-ms
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.2.regtrans-ms
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.blf
+NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TM.blf
+NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+OneDrive/
+Pictures/
+Plantillas@
+Reciente@
+'Saved Games'/
+Searches/
+SendTo@
+Videos/
+
+android@S13-31 MINGW64 ~
+$ cd .ssh
+
+android@S13-31 MINGW64 ~/.ssh
+$ ls
+id_rsa  id_rsa.pub
+
+android@S13-31 MINGW64 ~/.ssh
+$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCqNFwWvv7coq7t3FGH0g2fo+Xb6mHnUlN0SbPHknNQb5DCgYIQU9w31D2D1IsTdXf8Thn6jooIseh3b9QWctnoTHlAaZmOwds98YP0sUD+D8r6Cvs1h8Y+lzLff7+dorO+Iq3NYB/PhIgzqWqtXPsSD9NPLcRuGamkzJ7nrEAfPxYHb07yOmPxC9h2ThI9vCHgCZwCT6vsM5ipLyUgm++tnDvoCkcjidJ9IpBIAUa1MXMN+QZK0NS90D/s+5sS30sKD9h1PS2AZdOtHn0Q7BYfvBalG2bp6BzNtgLhfaXapuh7uspPHojR4giZlk1RP/5XYv4IrDDbe10++pXwoQUsjvlSW1tB15kH2T9qNH56fyA8U46QLcKT/CJlUTuD3QMIWJc1PvBH2W5+uVC7vJ76Bd3Nh9SV4rVcLmHzt993rUzww/Eqw8FNqGlH/t/JXy15CNn1zAOSecsw9eV7iVvHYMqib48WYDArHRGSG8MKx8QGLjBz2D6TwMlOrPagJ7kZrgjc0rubbYrXpeNjzFEqLq+z81ic9PPy5mHPTTvEs7K+7IXLOTBcZVjs9+pvBu3aGTmh43uyWW2qcFwa0PuYKIx83/wscMEtp08Ake1P1fMEaBn9g5QpmT2zlxtb5u+/PLQ4LdmNkrzxparhsaLWg/pdzFfuBHCQLb6Gm5Y6Rw== rodso91@gmail.com
+
+android@S13-31 MINGW64 ~/.ssh
+$ ^C
+
+android@S13-31 MINGW64 ~/.ssh
+$ ^C
+
+android@S13-31 MINGW64 ~/.ssh
+$ ssh -T git@github.com
+The authenticity of host 'github.com (192.30.253.113)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+Enter passphrase for key '/c/Users/android/.ssh/id_rsa':
+Hi Orodelo2! You've successfully authenticated, but GitHub does not provide shell access.
+
+android@S13-31 MINGW64 ~/.ssh
+$ cd ..
+
+android@S13-31 MINGW64 ~
+$ cd ..
+
+android@S13-31 MINGW64 /c/Users
+$ cd android
+
+android@S13-31 MINGW64 ~
+$ ls
+AppData/
+'Configuración local'@
+Contacts/
+Cookies@
+'Datos de programa'@
+Desktop/
+Documents/
+Downloads/
+'Entorno de red'@
+Favorites/
+Impresoras@
+Links/
+'Menú Inicio'@
+'Mis documentos'@
+Music/
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.0.regtrans-ms
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.1.regtrans-ms
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.2.regtrans-ms
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.blf
+NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TM.blf
+NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+OneDrive/
+Pictures/
+Plantillas@
+Reciente@
+'Saved Games'/
+Searches/
+SendTo@
+Videos/
+
+android@S13-31 MINGW64 ~
+$ cd desktop
+
+android@S13-31 MINGW64 ~/desktop
+$ ls
+desktop.ini  Python_Cuc/
+
+android@S13-31 MINGW64 ~/desktop
+$ cd Python_Cuc
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ ls
+Curso_Python.py  Notas_Sesion_1.txt
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/android/Desktop/Python_Cuc/.git/
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Curso_Python.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git add .
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Curso_Python.py
+
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git commit -m "Foto inicial"
+[master c6f935e] Foto inicial
+ 1 file changed, 77 insertions(+)
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git log
+commit c6f935ed782ebcfb8656c24d8c23a8ae2d2ab178
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 11:24:29 2019 -0500
+
+    Foto inicial
+
+commit 6cdddfcfad78165b0e9be0e03a0c87f2298f4fc8
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:42:07 2019 -0500
+
+    Foto inicial
+
+commit 4a460923316e92f1b6e6240ef3a36562a8b47111
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:20:25 2019 -0500
+
+    Foto inicial2
+
+commit 38458cbdee2cd0230ce185ae1e220cd022e91af8
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:01:32 2019 -0500
+
+    Foto inicial
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Curso_Python.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git add .
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Curso_Python.py
+
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git commit -m "Foto inicial"
+[master b8f3d3e] Foto inicial
+ 1 file changed, 25 insertions(+)
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git log
+commit b8f3d3e1a5a61a900251e4232d8d95bc56d77bb7
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 11:44:42 2019 -0500
+
+    Foto inicial
+
+commit c6f935ed782ebcfb8656c24d8c23a8ae2d2ab178
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 11:24:29 2019 -0500
+
+    Foto inicial
+
+commit 6cdddfcfad78165b0e9be0e03a0c87f2298f4fc8
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:42:07 2019 -0500
+
+    Foto inicial
+
+commit 4a460923316e92f1b6e6240ef3a36562a8b47111
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:20:25 2019 -0500
+
+    Foto inicial2
+
+commit 38458cbdee2cd0230ce185ae1e220cd022e91af8
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:01:32 2019 -0500
+
+    Foto inicial
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ ^C
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$
