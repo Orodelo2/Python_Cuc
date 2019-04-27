@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
-"""
-Editor de Spyder
 
-Este es un archivo temporal.
+# Comentario de línea
+
 """
-a = 5
+Comentario
+de
+parrafo
+"""
+# Hola mundo
+print("Hola mundo")
