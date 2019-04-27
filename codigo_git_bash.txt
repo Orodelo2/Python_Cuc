@@ -499,4 +499,300 @@ android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
 $ ^C
 
 android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Notas_Sesion_1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        codigo_git_bash.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git add .
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git commit -m "Foto inicial"
+[master 65fbc6a] Foto inicial
+ 2 files changed, 514 insertions(+), 2 deletions(-)
+ create mode 100644 codigo_git_bash.txt
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git log
+commit 65fbc6a90fe4edbafe0c29d7fbc2ffbef172371b
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 11:52:54 2019 -0500
+
+    Foto inicial
+
+commit b8f3d3e1a5a61a900251e4232d8d95bc56d77bb7
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 11:44:42 2019 -0500
+
+    Foto inicial
+
+commit c6f935ed782ebcfb8656c24d8c23a8ae2d2ab178
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 11:24:29 2019 -0500
+
+    Foto inicial
+
+commit 6cdddfcfad78165b0e9be0e03a0c87f2298f4fc8
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:42:07 2019 -0500
+
+    Foto inicial
+
+commit 4a460923316e92f1b6e6240ef3a36562a8b47111
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:20:25 2019 -0500
+
+    Foto inicial2
+
+commit 38458cbdee2cd0230ce185ae1e220cd022e91af8
+Author: Orlando <rodso91@gmail.com>
+Date:   Sat Apr 27 10:01:32 2019 -0500
+
+    Foto inicial
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ cd .ssh
+bash: cd: .ssh: No such file or directory
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ cd ..
+
+android@S13-31 MINGW64 ~/desktop
+$ cd .ssh
+bash: cd: .ssh: No such file or directory
+
+android@S13-31 MINGW64 ~/desktop
+$ cd ..
+
+android@S13-31 MINGW64 ~
+$ cd .ssh
+
+android@S13-31 MINGW64 ~/.ssh
+$ cd C:\Users\android\Documents\NetBeansProjects\Python_Cuc
+bash: cd: C:UsersandroidDocumentsNetBeansProjectsPython_Cuc: No such file or directory
+
+android@S13-31 MINGW64 ~/.ssh
+$ cd ..
+
+android@S13-31 MINGW64 ~
+$ cd C:\Users\android\Documents\NetBeansProjects\Python_Cuc
+bash: cd: C:UsersandroidDocumentsNetBeansProjectsPython_Cuc: No such file or directory
+
+android@S13-31 MINGW64 ~
+$ cd .ssh
+
+android@S13-31 MINGW64 ~/.ssh
+$ cd C:\Users\android\Documents\NetBeansProjects\Python_Cuc
+bash: cd: C:UsersandroidDocumentsNetBeansProjectsPython_Cuc: No such file or directory
+
+android@S13-31 MINGW64 ~/.ssh
+$ cd C:/Users/android/Documents/NetBeansProjects/Python_Cuc
+
+android@S13-31 MINGW64 ~/Documents/NetBeansProjects/Python_Cuc
+$ ls
+build.xml  manifest.mf  nbproject/  src/
+
+android@S13-31 MINGW64 ~/Documents/NetBeansProjects/Python_Cuc
+$ git init
+Initialized empty Git repository in C:/Users/android/Documents/NetBeansProjects/Python_Cuc/.git/
+
+android@S13-31 MINGW64 ~/Documents/NetBeansProjects/Python_Cuc (master)
+$ cd ..
+
+android@S13-31 MINGW64 ~/Documents/NetBeansProjects
+$ cd ..
+
+android@S13-31 MINGW64 ~/Documents
+$ cd ..
+
+android@S13-31 MINGW64 ~
+$ cd amdroid
+bash: cd: amdroid: No such file or directory
+
+android@S13-31 MINGW64 ~
+$ cd android
+bash: cd: android: No such file or directory
+
+android@S13-31 MINGW64 ~
+$ ls
+AppData/
+'Configuración local'@
+Contacts/
+Cookies@
+'Datos de programa'@
+Desktop/
+Documents/
+Downloads/
+'Entorno de red'@
+Favorites/
+Impresoras@
+Links/
+'Menú Inicio'@
+'Mis documentos'@
+Music/
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.0.regtrans-ms
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.1.regtrans-ms
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.2.regtrans-ms
+NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.blf
+NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TM.blf
+NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+OneDrive/
+Pictures/
+Plantillas@
+Reciente@
+'Saved Games'/
+Searches/
+SendTo@
+Videos/
+
+android@S13-31 MINGW64 ~
+$ cd descktop
+bash: cd: descktop: No such file or directory
+
+android@S13-31 MINGW64 ~
+$ cd desktop
+
+android@S13-31 MINGW64 ~/desktop
+$ ls
+desktop.ini  Python_Cuc/
+
+android@S13-31 MINGW64 ~/desktop
+$ cd Python_Cuc
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git remote add origin github.com/Orodelo2/Python_Cuc       
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git remote -v
+origin  github.com/Orodelo2/Python_Cuc (fetch)
+origin  github.com/Orodelo2/Python_Cuc (push)
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git push origin master
+fatal: 'github.com/Orodelo2/Python_Cuc' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git remote add origin github.com/Orodelo2/Python_Cuc.git
+fatal: remote origin already exists.
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git push origin master
+fatal: 'github.com/Orodelo2/Python_Cuc' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git remote add origin github.com/Orodelo2/Python_Cuc
+fatal: remote origin already exists.
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git push origin master
+fatal: 'github.com/Orodelo2/Python_Cuc' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git remote remove
+usage: git remote remove <name>
+
+
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git remote remove origin
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git remote add origin git@github.com:Orodelo2/Python_Cuc.git
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git push origin master
+Enter passphrase for key '/c/Users/android/.ssh/id_rsa':
+To github.com:Orodelo2/Python_Cuc.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:Orodelo2/Python_Cuc.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git push -F origin master
+error: unknown switch `F'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check|on-demand|no>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=<yes|no|if-asked>]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
+$ git push -f origin master
+Enter passphrase for key '/c/Users/android/.ssh/id_rsa':
+Counting objects: 20, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (20/20), 5.68 KiB | 0 bytes/s, done.
+Total 20 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), done.
+To github.com:Orodelo2/Python_Cuc.git
+ + fb8ad58...65fbc6a master -> master (forced update)
+
+android@S13-31 MINGW64 ~/desktop/Python_Cuc (master)
 $
