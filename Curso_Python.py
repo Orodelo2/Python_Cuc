@@ -1,3 +1,4 @@
+import math
 # -*- coding: utf-8 -*-
 
 # Comentario de línea
@@ -43,3 +44,79 @@ print(x)
 
 x = float("2.8")
 print(x)
+
+cad = "Hola Mundo"
+print(cad[0])
+print(cad[2])
+print(cad[0:5])  # No toma el último valor
+
+cad = "    Hello World     "
+cad = cad.strip()
+print(cad)
+print(cad[0])
+
+cad = "Hello World"
+print(len(cad))
+print(cad.lower())
+print(cad.upper())
+print(cad.replace('1', 'y'))
+print(cad.split(" "))
+print(cad.split("1"))
+
+# Operaciones aritmeticas
+
+# Opraciones Aritméticas
+
+a = 20
+b = 3
+c = a + b
+print(c)
+c = a - b
+print(c)
+c = a * b
+print(c)
+c = a / b
+print(c)
+c = a // b
+print(c)
+c = a % b
+print(c)
+c = a ** b
+print(c)
+c = math.sqrt(a)
+print(c)
+c = math.pi
+print(c)
+
+
+# Captura por consola
+
+print("Digite el nombre")
+nombre = input()
+print("Hola "+nombre+" !")
+
+print("Digite número 1")
+n1 = input()
+print("Digite número 2")
+n2 = input()
+n1 = float(n1)
+n2 = float(n2)
+print(n1+n2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
