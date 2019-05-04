@@ -90,15 +90,53 @@ vaux = v[2:5]
 for x in vaux:
     print(vaux)
 
+# Recorrer con saltos
+a = [5, 9, 6, 7]
 # Ejercicio
+print("Digite el valor final de la sumatoria")
+a = int(input())
+suma = 0
+for x in range(a+1):
+    suma = suma + x
+print("La sumatoria es: ", suma)
 
-Tamaño = input
+#  Forma 2
+print("Digite el valor final de la sumatoria")
+a = int(input())
+sumatoria = 0
+sumatoria = sum(range(a + 1))
+print(sumatoria)
 
-Tamaño = Tamaño + 1
 
-vector = range(input + 1)
+# Ciclo While
 
-print(vector)
+i = 1
+while i < 5:
+    print(i)
+    i = i + 1
+
+# Funciones
+
+# Procedimientos no tienen valor
+def hola_mundo():
+    print("Hola Mundo")
+
+# Invocar el procedimiento
+hola_mundo()
+
+# Funcion que retorna valor
+def elevar_cuadrado(numero):
+    return numero ** 2
+
+# Funcion que retorna valor
+def elevar_cuadrado_cualquier_potencia(numero, exponente):
+    return numero ** exponente
+
+
+# Invocar la funcion
+
+elevar_cuadrado(3)
+elevar_cuadrado_cualquier_potencia(4, 4)
 
 
 
